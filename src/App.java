@@ -92,7 +92,7 @@ public class App extends JFrame implements ActionListener {
     public void atualizarlayout() {
         labelVidas.setText("Vidas: " + personagem.getvidas());
         if (tabuleiro.getPrincipal().temPicaEreta()) {
-            labelMartelo.setText("Picareta: " + personagem.getMartas());
+            labelMartelo.setText("Martelo: " + personagem.getMartas());
         } else {
             labelMartelo.setText("");
         }
